@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<script src="~/Scripts/pdfjs/pdf.js"></script>
+
+<h1>PDF预览DEMO</h1>
+
+<div>
+    <button id="prev" onclick="renderPage(-1)">Previous</button>
+    <button id="next" onclick="renderPage(1)">Next</button>
+    &nbsp; &nbsp;
+    <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+</div>
+
+
+<canvas id="the-canvas"></canvas>
+
+
+
+
+<script src="~/Scripts/pdfdemo/pdfdemo.js"></script>
+
