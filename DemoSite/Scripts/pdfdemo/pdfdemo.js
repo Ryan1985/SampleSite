@@ -33,7 +33,7 @@ function renderPage(direction) {
     pdfObject.getPage(currentPageNumber).then(function (page) {
         console.log('Page loaded');
         document.getElementById('page_num').textContent = currentPageNumber;
-        var scale = 1.5;
+        var scale = 1;
         var viewport = page.getViewport(scale);
 
         // Prepare canvas using PDF page dimensions

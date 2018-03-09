@@ -240,6 +240,7 @@
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\MapDemoController.cs" />
     <Compile Include="Controllers\MeController.cs" />
     <Compile Include="Controllers\PdfDemoController.cs" />
     <Compile Include="Global.asax.cs">
@@ -261,6 +262,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="favicon.ico" />
+    <Content Include="Files\timg.jpg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\app\_run.js" />
@@ -293,6 +295,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Files\demoFile.pdf" />
+    <Content Include="Scripts\mapdemo\mapdemo.js" />
     <Content Include="Scripts\pdfjs\cmaps\78-EUC-H.bcmap" />
     <Content Include="Scripts\pdfjs\cmaps\78-EUC-V.bcmap" />
     <Content Include="Scripts\pdfjs\cmaps\78-H.bcmap" />
@@ -462,6 +465,7 @@
     <Content Include="Scripts\pdfjs\cmaps\UniKS-UTF8-V.bcmap" />
     <Content Include="Scripts\pdfjs\cmaps\V.bcmap" />
     <Content Include="Scripts\pdfjs\cmaps\WP-Symbol.bcmap" />
+    <None Include="Properties\PublishProfiles\CustomProfile.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -517,6 +521,8 @@
     <Content Include="Scripts\pdfjs\pdf.js.map" />
     <Content Include="Scripts\pdfjs\pdf.worker.js.map" />
     <Content Include="Views\PdfDemo\Index.cshtml" />
+    <Content Include="Views\MapDemo\Index.cshtml" />
+    <Content Include="Views\Home\NewIndex.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
